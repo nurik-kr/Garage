@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/onBoardFragment">
+
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="kg.nurik.garage.ui.onBoard.OnBoardFragment"
+        android:label="OnBoardFragment"
+        tools:layout="@layout/fragment_onboard">
+        <action
+            android:id="@+id/action_onBoardFragment_to_onBoardInputName"
+            app:destination="@id/onBoardInputName" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardInputName"
+        tools:layout="@layout/fragment_auth"
+        android:name="kg.nurik.garage.ui.onBoard.OnBoardInputName"
+        android:label="OnBoardInputName" >
+        <action
+            android:id="@+id/action_onBoardInputName_to_ageFragment"
+            app:destination="@id/ageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ageFragment"
+        tools:layout="@layout/fragment_age"
+        android:name="kg.nurik.garage.ui.onBoard.AgeFragment"
+        android:label="AgeFragment" />
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Garage</string>
+    <string name="onboard_title">Перед тобой\n«Музей на РЖЯ - детям»,\nобъясняющий незнакомые слова\nиз мира искусства на русском\nжестовом языке!</string>
+    <string name="title">Привет!\nДавай знакомиться!\nKак тебя зовут?</string>
+    <string name="my_names">Меня зовут</string>
+    <string name="masha">ИМЯ</string>
+    <string name="age">Сколько тебе лет?</string>
+    <string name="age_two">Малыш, ты уже умеешь\nчитать?</string>
+    <string name="age_three">Ого! А ты не слишком\nвзрослый?</string>
+    <color name="yellow">#EDC65B</color>
+    <color name="background_progress">#EEE7DF</color>
+</resources>
